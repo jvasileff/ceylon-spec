@@ -3129,7 +3129,7 @@ Digit{1,2} ":" Digit{2} ( ":" Digit{2} ( ":" Digit{3} )? )?
             <entry><literal>lhs.intersection(rhs)</literal></entry>
             <entry><literal>Set&lt;X&gt;</literal></entry>
             <entry><literal>Set&lt;Y&gt;</literal></entry>
-            <entry><literal>Set&lt;X&amp;Y&gt;</literal></entry>
+            <entry><literal>Set&lt;X&gt;</literal></entry>
         </row>
         <row>
             <entry><literal>lhs ~ rhs</literal></entry>

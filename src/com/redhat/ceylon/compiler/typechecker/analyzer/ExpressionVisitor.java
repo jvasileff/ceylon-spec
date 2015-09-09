@@ -5267,7 +5267,7 @@ public class ExpressionVisitor extends Visitor {
                     unit.getSetElementType(rhst);
             Type et;
             if (that instanceof Tree.IntersectionOp) {
-                et = intersectionType(rhset, lhset, unit);
+                et = lhset;
             }
             else if (that instanceof Tree.ComplementOp) {
                 et = lhset;
